@@ -1,0 +1,63 @@
+﻿
+
+/* Navigation styles */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    height: 48px;
+}
+
+    .navbar a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar left {
+        position: center ;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left:10px;
+        
+    }
+
+        .navbar a:hover, .navbar .left:hover {
+            background-color: grey;
+            color: white;
+        }
+
+.btn:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.nav ul li:hover {
+    background: #000;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 100px;
+    font-size: 12px;
+    padding: 10px 15px;
+}

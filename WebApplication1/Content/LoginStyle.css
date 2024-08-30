@@ -1,0 +1,65 @@
+﻿body {
+    background-image: url(https://img.freepik.com/free-photo/blur-hospital_1203-7972.jpg?w=740&t=st=1680371876~exp=1680372476~hmac=b046d30cd6532065742f9ff17312d9ab44b28023c50553b2ee18c66f64c1cb86);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    color: black;
+}
+
+.login-table {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.auto-style1 {
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:lightgray;
+}
+
+    .input-container input[type=text],
+    .input-container input[type=password] {
+        height: 30px;
+        padding-left: 15px;
+        border: 0;
+        border-radius: 20px;
+    }
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.error-message {
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+    color: red;
+    font-size: small;
+    margin-top: 5px;
+}

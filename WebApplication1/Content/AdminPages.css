@@ -1,0 +1,103 @@
+﻿body {
+    background-image: url(https://img.freepik.com/free-photo/blur-hospital_1203-7972.jpg?w=740&t=st=1680371876~exp=1680372476~hmac=b046d30cd6532065742f9ff17312d9ab44b28023c50553b2ee18c66f64c1cb86);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.select-type {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form container */
+.form-container {
+    font-weight: bold;
+    height: auto;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey ;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+input[type=text] {
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.required {
+    color: red;
+}
+
+
+/* Button styles */
+
+#SUBMIT {
+    background-color: lightgray;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    #SUBMIT:hover {
+        background-color: ghostwhite;
+    }
+
+#EDIT {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    #EDIT:hover {
+        background-color: dodgerblue;
+    }
+
+#clear {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    margin-right: 10px;
+}
+
+    #clear:hover {
+        background-color: darkred;
+    }
+
+#exit {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #exit:hover {
+        background-color: dodgerblue;
+    }
